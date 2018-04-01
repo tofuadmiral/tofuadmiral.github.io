@@ -12,9 +12,13 @@ Check it out at [fuadali.com](https://fuadali.com)
 * CSS3
 * [BootStrap 4](https://getbootstrap.com/) 
 
-## Screenshots
+## Preview
 
+![Image Not Found](preview1.png)
+![Image Not Found](preview2.png)
 
+## Resume
+![File Not Found](resume.pdf)
 
 ## Authors
 
