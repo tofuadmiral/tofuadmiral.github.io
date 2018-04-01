@@ -18,7 +18,7 @@ Check it out at [fuadali.com](https://fuadali.com)
 ![Image Not Found](preview2.png)
 
 ## Resume
-![File Not Found](resume.pdf)
+![Click here for my resume](resume.pdf)
 
 ## Authors
 
