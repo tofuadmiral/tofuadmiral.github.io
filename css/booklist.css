@@ -26,6 +26,10 @@ body {
   text-transform: uppercase;
 }
 
+.currentbook {
+      font-weight: bold;
+}
+
 h1,
 h2,
 h3,
