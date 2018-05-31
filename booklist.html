@@ -16,6 +16,9 @@
   <!-- Custom CSS -->
   <link href="css/booklist.css" rel="stylesheet">
 
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
 </head>
 <body>
 
@@ -40,7 +43,6 @@
       <table class="table">
         <thead>
           <tr>
-            <th>#</th>
             <th>Title</th>
             <th>Author</th>
             <th>Published</th>
@@ -51,7 +53,6 @@
         <tbody>
          <b>
            <tr class="currentbook">
-            <td>Current</td>
             <td>Marcus Aurelius: Meditations</td>
             <td>Marcus Aurelius</td>
             <td>850</td>
@@ -60,7 +61,6 @@
           </tr>
         </b>
         <tr>
-          <td>1</td>
           <td>The Autobiography of Malcolm X</td>
           <td>Alex Haley</td>
           <td>1965</td>
@@ -68,7 +68,6 @@
           <td>10/10</td>
         </tr>
         <tr>
-          <td>2</td>
           <td>Gulag: A History</td>
           <td>Anne Appebaum</td>
           <td>2003</td>
@@ -76,7 +75,6 @@
           <td>7/10</td>
         </tr>
         <tr>
-          <td>3</td>
           <td>Behind the Beautiful Forevers: Life Death and Hope in a Mumbai Undercity</td>
           <td>Katherine Boo</td>
           <td>2012</td>
@@ -84,7 +82,6 @@
           <td>9/10</td>
         </tr>
         <tr>
-          <td>4</td>
           <td>All the Light We Cannot See</td>
           <td>Anthony Doerr</td>
           <td>2014</td>
@@ -92,12 +89,18 @@
           <td>10/10</td>
         </tr>
         <tr>
-          <td>5</td>
           <td>Essentialism: The Disciplined Pursuit of Less</td>
           <td>Greg McKeown</td>
           <td>2014</td>
           <td>Non-fiction</td>
           <td>8/10</td>
+        </tr>
+        <tr>
+          <td>The Design of Everyday Things </td>
+          <td>Don Norman</td>
+          <td>1988</td>
+          <td>Non-fiction</td>
+          <td>8.5/10</td>
         </tr>
       </tbody>
     </table>
@@ -111,7 +114,7 @@
       <div class="form-area">  
         <form role="form">
           <br style="clear:both">
-          <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+          <h3 style="margin-bottom: 25px; text-align: center;">Suggest a book here! </h3>
           <div class="form-group">
             <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
           </div>
@@ -120,9 +123,10 @@
           </div>
           <div class="form-group">
             <textarea class="form-control" type="textarea" id="message" placeholder="Suggestion" maxlength="200" rows="7"></textarea>
-            <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
           </div>
-          <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Suggestion</button>
+          <center>
+            <button type="button" id="submit" name="submit" class="btn btn-primary pull-center">Submit Suggestion</button>
+          </center>
         </form>
       </div>
     </div>
