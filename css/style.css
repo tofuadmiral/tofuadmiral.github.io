@@ -165,17 +165,19 @@ hr {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	color: #333;
+	color: white;
 }
 .intro p {
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
+	color: white;
 }
 header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
+
 /* About Section */
 #about {
 	padding: 120px 0;
