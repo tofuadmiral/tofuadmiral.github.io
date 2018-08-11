@@ -201,6 +201,9 @@ header .intro-text {
 	line-height: 22px;
 }
 /* Portfolio Section */
+#name {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
 #portfolio {
 	padding: 120px 0;
 	background: #fff;
