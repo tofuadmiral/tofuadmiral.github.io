@@ -4,7 +4,7 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		border-bottom: 1px solid rgba(212,63,204,0);
 		font-weight: 300;
 		padding: 0 1em;
 	}
@@ -36,7 +36,7 @@
 		content: '';
 		width: calc(100% - 1em);
 		height: 2px;
-		background-color: rgb(255,62,0);
+		background-color: rgb(212,63,204);
 		display: block;
 		bottom: -1px;
 	}
@@ -50,8 +50,8 @@
 
 <nav>
 	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>about</a></li>
+		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>fuad ali</a></li>
+		<li><a aria-current='{segment === "resume" ? "page" : undefined}' href='resume.pdf'>resume</a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
