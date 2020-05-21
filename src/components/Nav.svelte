@@ -1,4 +1,8 @@
 <script>
+	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte'
+	import FaGithub from 'svelte-icons/fa/FaGithub.svelte'
+	import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte'
+	import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte'
 	export let segment;
 </script>
 
@@ -21,10 +25,36 @@
 		clear: both;
 	}
 
-	li {
+	li1 {
+		display: block;
+		float: left;
+		text-decoration-color: #d83ccc
+	}
+
+	li2 {
 		display: block;
 		float: left;
 	}
+
+	li3 {
+		display: block;
+		float: right;
+	}
+
+	.links {
+    	display: flex;
+   		flex-direction: row;
+    	justify-content: space-between;
+    	align-items: center;
+    	width: 12rem;
+  	}
+
+	.icon {
+		color: black;
+		width: 32px;
+		height: 32px;
+	}
+
 
 	[aria-current] {
 		position: relative;
@@ -50,11 +80,20 @@
 
 <nav>
 	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>fuad ali</a></li>
-		<li><a aria-current='{segment === "resume" ? "page" : undefined}' href='resume.pdf'>resume</a></li>
+		<li1><a aria-current='{segment === undefined ? "page" : undefined}' href='.'><strong><span style='color:#d83ccc'>fuad ali</span></strong></a></li1>
+		<li2><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li2>
+		<li2><a aria-current='{segment === "resume" ? "page" : undefined}' href='resume.pdf'>resume</a></li2>
+		<li2><a rel=prefetch aria-current='{segment === "podcast" ? "page" : undefined}' href='http://bit.ly/adultverse'>podcast</a></li2>
+
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li>
+
+		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://linkedin.com/in/ahmedfuadali'><FaLinkedin /></a></li3>
+		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://github.com/tofuadmiral'><FaGithub /></a></li3>
+		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://instagram.com/tofuadmiral'><FaInstagram /></a></li3>
+		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://twitter.com/tofuadmiral'><FaTwitter /></a></li3>
+
 	</ul>
+
 </nav>
