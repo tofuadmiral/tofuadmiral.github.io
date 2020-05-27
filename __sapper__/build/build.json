@@ -1,0 +1,1 @@
+{"bundler":"rollup","shimport":"1.0.1","assets":{"main":"client.fc5b6ff3.js"},"css":{"main":"main.3500319950.css","chunks":{"index.svelte":[],"podcast/index.svelte":[],"about.svelte":[],"reads/index.svelte":[],"reads/[slug].svelte":[],"blog/index.svelte":[],"blog/[slug].svelte":[]}},"legacy_assets":{"main":"client.1c9993d6.js"}}
