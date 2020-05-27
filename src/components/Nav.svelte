@@ -81,6 +81,7 @@
 <nav>
 	<ul>
 		<li1><a aria-current='{segment === undefined ? "page" : undefined}' href='.'><strong><span style='color:#d83ccc'>fuad ali</span></strong></a></li1>
+		<li2><a rel=prefetch aria-current='{segment === "reads" ? "page" : undefined}' href='reads'>reads</a></li2>
 		<li2><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li2>
 		<li2><a aria-current='{segment === "resume" ? "page" : undefined}' href='resume.pdf'>resume</a></li2>
 		<li2><a rel=prefetch aria-current='{segment === "podcast" ? "page" : undefined}' href='http://bit.ly/adultverse'>podcast</a></li2>

@@ -36,11 +36,7 @@
 	<title>fuad ali</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>CURRENTLY UNDER CONSTRUCTION </h1>
+<p>New look coming soon 👀</p>
 
-<figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p>Schedule a <a href="https://calendly.com/fuadali/coffee-chats">☕️ chat!</a></p>
+<p>But you can still check out my resume or schedule a <a href="https://calendly.com/fuadali/coffee-chats">☕️ chat!</a></p>
