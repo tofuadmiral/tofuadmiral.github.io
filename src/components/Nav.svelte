@@ -55,7 +55,6 @@
 		height: 32px;
 	}
 
-
 	[aria-current] {
 		position: relative;
 		display: inline-block;
@@ -85,16 +84,6 @@
 		<li2><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li2>
 		<li2><a aria-current='{segment === "resume" ? "page" : undefined}' href='resume.pdf'>resume</a></li2>
 		<li2><a rel=prefetch aria-current='{segment === "podcast" ? "page" : undefined}' href='http://bit.ly/adultverse'>podcast</a></li2>
-
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-
-		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://linkedin.com/in/ahmedfuadali'><FaLinkedin /></a></li3>
-		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://github.com/tofuadmiral'><FaGithub /></a></li3>
-		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://instagram.com/tofuadmiral'><FaInstagram /></a></li3>
-		<li3><a class="icon" rel=prefetch aria-current='{segment === "right" ? "page" : undefined}' href='http://twitter.com/tofuadmiral'><FaTwitter /></a></li3>
-
 	</ul>
 
 </nav>

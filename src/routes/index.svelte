@@ -1,28 +1,20 @@
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
+	* {
+		margin: 0;
+		padding: 0;
 	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
+	.imgbox {
+		display: grid;
+		height: 100%;
 	}
-
-	figure {
-		margin: 0 0 1em 0;
+	.center-fit {
+		max-width: 100%;
+		max-height: 100vh;
+		margin: auto;
 	}
 
 	img {
 		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
 	}
 
 	@media (min-width: 480px) {
@@ -36,14 +28,21 @@
 	<title>fuad ali</title>
 </svelte:head>
 
-<h1>CURRENTLY UNDER CONSTRUCTION </h1>
-<p>New look coming soon 👀</p>
+<div class="imgbox">
+	<img class="center-fit" src="../abstractHeader.png" alt="header">
+</div>
 
-<p>But you can still check out my resume or schedule a  ☕️ chat!</p>
+
+<p>Schedule a  ☕️ chat! </p>
+
+
 
 <body>
+
+
 <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/fuadali/coffee-chats?primary_color=e600ff" style="min-width:320px;height:1000px;"></div>
+<div class="calendly-inline-widget" data-url="https://calendly.com/tofuadmiral" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 <!-- Calendly inline widget end -->
 </body>
+
