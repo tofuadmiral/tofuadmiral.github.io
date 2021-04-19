@@ -83,7 +83,7 @@
 		<li2><a rel=prefetch aria-current='{segment === "reads" ? "page" : undefined}' href='https://www.goodreads.com/user/show/32757702-fuad-ali'>reads</a></li2>
 		<li2><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='http://medium.com/@tofuadmiral'>blog</a></li2>
 		<li2><a aria-current='{segment === "resume" ? "page" : undefined}' href='resume.pdf'>resume</a></li2>
-		<li2><a rel=prefetch aria-current='{segment === "podcast" ? "page" : undefined}' href='http://bit.ly/adultverse'>podcast</a></li2>
+		<li2><a rel=prefetch aria-current='{segment === "podcast" ? "page" : undefined}' href='http://nextiterationpod.com'>podcast</a></li2>
 	</ul>
 
 </nav>
